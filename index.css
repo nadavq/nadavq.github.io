@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(234, 234, 234);
+    font-family: 'Playfair Display', serif;
+    padding: 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: unset;
+    margin: unset;
+}
+
+h1 {
+    white-space: nowrap;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+.flex {
+    display: flex;
+    column-gap: 10%;
+}
+
+.flex-space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 10%;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.job2 img {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.swiper {
+    justify-content: center;
+    display: flex !important;
+}
