@@ -46,3 +46,12 @@ hr {
     justify-content: center;
     display: flex !important;
 }
+
+.container .qwiser-link {
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    margin-top: 5px;
+}
